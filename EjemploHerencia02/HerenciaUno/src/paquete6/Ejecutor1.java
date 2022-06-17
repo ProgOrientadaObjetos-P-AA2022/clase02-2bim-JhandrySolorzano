@@ -6,7 +6,7 @@
 package paquete6;
 
 public class Ejecutor1 {
-
+    
     public static void main(String[] args) {
 
         // Creación de un objeto de tipo EstudianteDistancia
@@ -27,6 +27,9 @@ public class Ejecutor1 {
         System.out.println("--------------");
         EstudianteDistancia estDistancia2 = new EstudianteDistancia(nombre,
                 apellido, identificacion, edad);
+        
+        estDistancia2.establecerNumeroAsginaturas(10);
+        estDistancia2.establecerCostoAsignatura(50);
         
         estDistancia2.calcularMatriculaDistancia();
         
